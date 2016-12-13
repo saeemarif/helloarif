@@ -1,0 +1,234 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin:.1px;
+	padding: 0;
+	border: 0.5;
+	font-size: 100%;
+	font: "Arial Black";
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body{
+  line-height: 1;	
+  background-color:#FFFFFF;
+  font-family:      Georgia,Times New Roman, Times,serif,Arial Black; 
+  font-size:        small;
+  margin: 			0 auto;
+  height: 			100%;
+  padding: 			0;
+  width: 			1300px;
+  position:			relative;
+}
+nav {
+    background-color:#66b3ff;
+	position: 		relative;
+	padding: 2px 2px 2px 2px;
+	margin: 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 0px 0px 0px 0px;
+}
+
+div.hoverBtn {
+	position: 		relative;
+	float:			left;
+	background:		#33AD5C url(images/navBG.png) repeat-x 0 0 scroll;
+}
+
+div.hoverBtn a {
+	position: 		relative;
+	z-index: 		2;
+	display: 		block;
+	width: 			230px;
+	height: 		30px;
+	line-height: 	30px;
+	text-align: 	center;
+	font-size:		1.1em;
+	text-decoration:	none;
+	color:			white;
+	background:		transparent none repeat-x 0 0 scroll;
+}
+div.hoverBtn div {
+	display:		none;
+	position: 		absolute;
+	z-index: 		1;
+	top: 			0px;
+	background:	  #F99B03 url(images/navHover.png) repeat-x 0 0 scroll;
+}
+
+.clear	{ clear: both; }
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 80%;
+	height: auto !important;
+	height: 100%;
+	color:#FFFFFF;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+	color:#FFFFFF;
+	
+	
+}
+.header h1{
+	padding-top:0px;
+	text-align:center;
+	font-size:125%;
+	font-family: fantasy, cursive,Arial Black; 
+	color:#F99B03;
+
+
+}
+.header h3{
+	text-align:right;
+	font-size:100%;
+	font-family: Arial Black;
+	Color:#33AD5C;
+	
+}
+.h1 {
+	text-align:     center;
+	font-size:        150%;
+	color:            #D4CADE;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 10px;
+	position: relative;
+	overflow:hidden;
+	height: 100%;
+	background: #FFFFFF;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	height: 100%;
+	float: left;
+overflow:hidden;
+	
+	
+}
+.container h4{
+	text-align:center;
+	font-size:150%;
+	font-family: Arial Black, cursive;
+	color:#000000;
+	padding-top:8px;
+	
+	
+}
+
+.content {
+	padding: 0 0 0 0px;
+	overflow:hidden;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer a{
+	color:#F99B03;	
+}
+.footer p{
+	color:#F99B03;	
+}
+
+
+footer.top{
+  background-color: #630122;
+  margin: 5px 10px 0px 10px;
+  height:           58px;
+  font-size:    100%
+}
+footer.top#footerLogo{
+position:botttom;
+bottom:0px;
+left: 0px;
+font-size:10%;
+}
+
+footer {
+	background-color: #FFFFFF;
+	text-align:      center;
+	padding:      10px;
+	margin: 0% 0% 0% 0%;
+	font-size:    100%;
+	min-width: 90%;
+	min-height: 0%;
+	background:#FFFFFF;  
+	bottom: 0px;  
+	position: relative;
+	color:#FFFFFF;
+}
+
+

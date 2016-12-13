@@ -1,0 +1,265 @@
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    body{
+    width:1000px;
+    margin:0 auto;
+    }
+    #content {
+    width: 700px;
+    }
+    .sidebar{
+    width:280px;
+    }
+}
+ 
+@media screen and (max-width: 980px) {
+body{
+    width:850px;
+    margin:0 auto;
+    }
+    #content {
+    width: 550px;
+    }
+    .sidebar{
+    width:280px;
+    }
+}
+ 
+@media screen and (max-width: 750px) {
+    body{
+    width:600px;
+    margin:0 auto;
+    }
+    #content {
+    width: 400px;
+    }
+/* The media queries*/
+@media screen and (max-width: 1000px) {
+    #bar1,
+    #bar2{
+    width:39%;
+    }
+    .sidebar{
+    float: left;
+    margin: 0 0 20px 1%;
+    padding: 0;
+    }
+}
+ 
+@media screen and (max-width: 540px) {
+    #bar1,
+    #bar2{
+    clear:both;
+    width:100%;    
+    }
+    .sidebar{
+    float: left;
+    margin: 0 0 20px 1%;
+    padding: 0; 
+    }
+    #content {
+    clear:both;
+    width:100%;
+    }
+    #content .bloc {
+    margin:0;
+    }
+}
+/*/* The media queries*/
+@media screen and (max-width: 1000px) {
+    #bar1,
+    #bar2{
+    width:39%;
+    }
+    .sidebar{
+    float: left;
+    margin: 0 0 20px 1%;
+    padding: 0;
+    }
+}
+ 
+@media screen and (max-width: 540px) {
+    #bar1,
+    #bar2{
+    clear:both;
+    width:100%;    
+    }
+    .sidebar{
+    float: left;
+    margin: 0 0 20px 1%;
+    padding: 0; 
+    }
+    #content {
+    clear:both;
+    width:100%;
+    }
+    #content .bloc {
+    margin:0;
+    }
+}*/
+
+/*#container{
+    background:rgba(111, 78, 152, 0.9); /*violet */
+    padding:10px 5px;
+    color:rgb(1, 1, 1);
+}
+ 
+@media all and (min-width:500px) and (max-width:699px) {
+   #container{
+   background: rgba(255, 0, 0, 0.9); /* rouge */
+   font-family: serif;
+   }
+}
+@media all and (min-width:700px) {
+   #container{
+   background: rgba(0, 0, 255,0.9); /*bleu */
+   color: white;
+   font-family: serif;
+   }
+} */
+
+/*
+/* Media queries */
+@media screen and (max-width: 1200px) {
+    body{
+    width:1000px;
+    margin:0 auto;
+    }
+    #content {
+    width: 700px;
+    }
+    .sidebar{
+    width:280px;
+    }
+}
+ 
+@media screen and (max-width: 980px) {
+body{
+    width:850px;
+    margin:0 auto;
+    }
+    #content {
+    width: 550px;
+    }
+    .sidebar{
+    width:280px;
+    }
+}
+ 
+@media screen and (max-width: 750px) {
+    body{
+    width:600px;
+    margin:0 auto;
+    }
+    #content {
+    width: 400px;
+    }
+    .sidebar{
+    width:190px;
+    margin: 0 0 20px 10px;
+    }
+}
+ 
+@media screen and (max-width: 540px) {
+    body{
+    width:450px;
+    margin:0 auto;
+    }
+    #content {
+    width: 450px;
+    }
+    #content .bloc{
+    margin:0px;
+    }
+    .sidebar{
+    width:450px;
+    margin: 0 0 10px 0;
+    }
+}
+ 
+@media screen and (max-width: 380px) {
+    body{
+    width:360px;
+    margin:0 auto;
+    }
+    #content {
+    width: 360px;
+    }
+    #content .bloc {
+    margin:0px;
+    }
+    .sidebar{
+    width:360px;
+    margin: 0 0 10px 0;
+    }
+}
+*/
+/*@mixin breakpoint($point) {
+@if $point == 1600 {
+
+@media (max-width: 1600px) and (min-width: 1280px) { @content; }}
+
+@else if $point == 1280 {
+
+@media (max-width: 1280px) and (min-width: 1024px) { @content; }}
+
+@else if $point == 1024 {
+
+@media (max-width: 1024px) and (min-width: 800px) { @content; }}
+
+@else if $point == 800 {
+
+@media (max-width: 800px) and (min-width: 640px) { @content; }}
+
+@else if $point == 640 {
+
+@media (max-width: 640px) and (min-width: 320px) { @content; }}
+
+@else if $point == 480 {
+
+@media (max-width: 480px) and (min-width: 320px) { @content; }}
+
+@else if $point == 320 {
+
+@media (max-width: 320px) and (min-width: 0px) { @content; }}
+*/
+
+    .sidebar{
+    width:190px;
+    margin: 0 0 20px 10px;
+    }
+}
+ 
+@media screen and (max-width: 540px) {
+    body{
+    width:450px;
+    margin:0 auto;
+    }
+    #content {
+    width: 450px;
+    }
+    #content .bloc{
+    margin:0px;
+    }
+    .sidebar{
+    width:450px;
+    margin: 0 0 10px 0;
+    }
+}
+ 
+@media screen and (max-width: 380px) {
+    body{
+    width:360px;
+    margin:0 auto;
+    }
+    #content {
+    width: 360px;
+    }
+    #content .bloc {
+    margin:0px;
+    }
+    .sidebar{
+    width:360px;
+    margin: 0 0 10px 0;
+    }
+}
